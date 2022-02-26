@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# learning a switch case in scripting
+# Will always be good practicing for all the new engineers in class27
+echo "hello everyone this is my first writing switch case"
+case $1 in
+Start)
+echo "Starting App.zelle1 server"
+echo "App.zell1 server started";;
+Stop)
+echo "Stopping App.zelle1 server"
+echo "App.zelle1 server stopped";;
+Restart)
+echo "Restart App.zelle1 server"
+echo "App.zelle1 server restarted";;
+*)
+echo "Sorry you passed the wrong options";;
+esac
